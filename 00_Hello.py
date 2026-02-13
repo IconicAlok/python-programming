@@ -1,0 +1,5 @@
+print("Hello World!")
+print("ALok Kuri")
+print('o----')
+print(' ||||')
+print("*" * 10)
