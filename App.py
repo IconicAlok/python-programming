@@ -1,4 +1,13 @@
-# This is my first python program
-print("I like pizza!")
-print("It's really good!")
+# if = Do some code only if some condition is true
+#       Else do something else
 
+age = int(input("Enter your age: "))
+
+if(age > 100):
+    print("You are too old to signed up!")
+elif(age >= 18):
+    print("You are now signed up!")
+elif(age < 0):
+    print("You haven't been born yet!")
+else:
+    print("You must be 18+ to signed up!")
