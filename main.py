@@ -1,15 +1,17 @@
+# indexing = accessing element of sequence [] (indexing operator)
+#           [start : end : step]
 
-# name = input("Enter your full name: ")
-phone_number = input("Enter your phone number: ")
+credit_number = "1234-5678-9012-3456"
 
-# result = len(name)
-# result = name.find("o")
-# result = name.rfind("k")
-# name = name.capitalize()
-# name = name.upper()
-# name = name.lower()
-# result = name.isdigit() # isdigit only return true when my string only digit
-# result = name.isalpha() # isalpha return boolean true or false depending string only contained alphabet
-# result = phone_number.count("-")
-phone_number = phone_number.replace("-", " ")
-print(phone_number)
+# print(credit_number[1])
+# print(credit_number[: 4])
+# print(credit_number[5:9])
+# print(credit_number[5:])
+# print(credit_number[-1])
+# print(credit_number[: : 3])
+
+last_digits = credit_number[-4:]
+print(f"xxxx-xxxx-xxxx-{last_digits}")
+
+credit_number = credit_number[ : : -1] # reverse the string
+print(credit_number)
