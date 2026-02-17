@@ -3,11 +3,11 @@
 
 age = int(input("Enter your age: "))
 
-if(age > 100):
+if age > 100:
     print("You are too old to signed up!")
-elif(age >= 18):
+elif age >= 18:
     print("You are now signed up!")
-elif(age < 0):
+elif age < 0:
     print("You haven't been born yet!")
 else:
     print("You must be 18+ to signed up!")
