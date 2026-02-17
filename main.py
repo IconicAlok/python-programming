@@ -1,25 +1,30 @@
-# conditional expression = A one line shortcut for if else statement (ternary operator)
-#                           Print or assign a value vased on a condition
-#                           x if condition else y
+# Python compound interest calculator
 
-num = 5
-a = 6
-b = 7
-age = 15
-temperature = 20
-user_role = "guest"
+principle = 0
+rate = 0
+time = 0
 
-print("Positive" if num > 0 else "Negative")
-result = "EVEN" if num % 2 ==0 else "ODD"
-max_num = a if a > b else b
-min_num = a if a < b else b
-status = "Adult" if age >= 18 else "Child"
-weather = "Hot" if temperature > 20 else "Cold"
-access_level = "Full access" if user_role == "admin" else "Limited access"
+while True:
+    principle = float(input("Enter the principle amount: "))
+    if principle < 0:
+        print("Principle can't be less than zero")
+    else:
+        break
 
-print (result)
-print(max_num)
-print(min_num)
-print(status)
-print(weather)
-print(access_level)
+while True:
+    rate = float(input("Enter the interst rate: "))
+    if rate < 0:
+        print("interst rate can't be less than zero")
+    else:
+        break
+
+while True:
+    time = int(input("Enter the time in year: "))
+    if time < 0:
+        print("time can't be less than zero")
+    else:
+        break
+
+total = principle * pow((1 + rate / 100), time)
+
+print(f"Balance after {time} year/s ${total:.2f}")
