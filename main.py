@@ -1,38 +1,25 @@
-# logial operator = Evaluate multiple conditions (and, or, not)
-#                     or = at least one condition to be True
-#                     and = both condition must be True
-#                     not = inverts the condition (not false not true)
+# conditional expression = A one line shortcut for if else statement (ternary operator)
+#                           Print or assign a value vased on a condition
+#                           x if condition else y
 
+num = 5
+a = 6
+b = 7
+age = 15
+temperature = 20
+user_role = "guest"
 
+print("Positive" if num > 0 else "Negative")
+result = "EVEN" if num % 2 ==0 else "ODD"
+max_num = a if a > b else b
+min_num = a if a < b else b
+status = "Adult" if age >= 18 else "Child"
+weather = "Hot" if temperature > 20 else "Cold"
+access_level = "Full access" if user_role == "admin" else "Limited access"
 
-
-# temp = 20
-# is_rainning = True
-#
-# if temp > 35 or temp < 0 or is_rainning:
-#     print("The outdor event is cancelled")
-# else:
-#     print("The outdor event is still scheduled")
-
-
-temp = 20
-is_sunny = False
-if temp >= 28 and is_sunny:
-    print("It is HOT outside")
-    print("It is sunny")
-elif temp <= 0 and is_sunny:
-    print("It is COLD outside")
-    print("It is sunny")
-elif 28 > temp > 0 and is_sunny:
-    print("It is warm outside")
-    print("It is sunny")
-elif temp >= 28 and not is_sunny:
-    print("It is HOT outside")
-    print("It is CLOUDY")
-elif temp <= 0 and not is_sunny:
-    print("It is COLD outside")
-    print("It is CLOUDY")
-elif 28 > temp > 0 and not is_sunny:
-    print("It is warm outside")
-    print("It is CLOUDY")
-
+print (result)
+print(max_num)
+print(min_num)
+print(status)
+print(weather)
+print(access_level)
