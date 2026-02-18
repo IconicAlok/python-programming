@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Nested loops">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Collection - list set tuple">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -30,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="15_Nested_loops" />
+        <entry key="$PROJECT_DIR$" value="16_List_set_tuples" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -322,7 +321,7 @@
       <workItem from="1771340729114" duration="475000" />
       <workItem from="1771342892899" duration="2268000" />
       <workItem from="1771381430043" duration="3713000" />
-      <workItem from="1771389541057" duration="1359000" />
+      <workItem from="1771389541057" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="Conditional expression">
       <option name="closed" value="true" />
@@ -420,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771382730537</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Collection - list set tuple">
+      <option name="closed" value="true" />
+      <created>1771391166571</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771391166571</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,12 +468,13 @@
     <MESSAGE value="For loop" />
     <MESSAGE value="Countdown timer" />
     <MESSAGE value="Nested loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nested loops" />
+    <MESSAGE value="Collection - list set tuple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection - list set tuple" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_work$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1771337210429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$exercise1.coverage" NAME="exercise1 Coverage Results" MODIFIED="1771308677946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$main.coverage" NAME="main Coverage Results" MODIFIED="1771390902210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_work$main.coverage" NAME="main Coverage Results" MODIFIED="1771392506656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$Main.coverage" NAME="Main Coverage Results" MODIFIED="1771389894532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1771337164282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$exmaple1.coverage" NAME="exmaple1 Coverage Results" MODIFIED="1771337139080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
