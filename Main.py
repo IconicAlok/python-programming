@@ -1,57 +1,52 @@
-# 2D collections
+# Python quiz game
 
-# fruits = ["apple", "orange", "banana", "coconut"]
-# vegetables  = ["celery", "carrot", "potatoes"]
-# meats = ["chicken", "fish","turkey"]
-#
-# groceries = [fruits, vegetables, meats]
+questions = ("How many element in the periodic table?: ",
+             "Which animal lays the largest egg?: ",
+             "Which is the most abundant gas in the atmosphere?: ",
+             "How many bones are in the human body?: ",
+             "Which planet in the solar system is the hottest?: ")
 
-groceries = [["apple", "orange", "banana", "coconut"],
-             ["celery", "carrot", "potatoes"],
-             ["chicken", "fish","turkey"]]
+options = (("A. 116", "B. 117", "C. 118", "D. 119"),
+           ("A. Whale", "B. Crocodile", "C. Elephant", "D. ostrich"),
+           ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
+           ("A. 206", "B. 207", "C. 208", "D. 209"),
+           ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
+
+answers = ("C", "D", "A", "A", "B")
+guesses = []
+score = 0
+question_num = 0
 
 
-#
-# print(groceries)
-# print(groceries[0]) # fruits list
-# print(groceries[1]) # vegetables list
-# print(groceries[0][0]) # first item in fruits list
-# print(groceries[0][1]) # Second item in fruits list
-# print(groceries[0][2]) # Third item in fruits list
-# # print(groceries[0][3]) # Error index out of range
-# print(groceries[1][0]) # first item in vegetables list
-# print(groceries[1][1]) # second item in vegetables list
-# print(groceries[1][2]) # third item in vegetables list
-# print(groceries[2][0]) # 1st item in meats list
-# print(groceries[2][1]) # 2nd item in meats list
-# print(groceries[2][2]) # 3rd item in meats list
+for question in questions:
+    print("--------------------")
+    print(question)
+    for option in options[question_num]:
+        print(option)
 
-for collection in groceries:
-    for food in collection:
-        print(food, end=" ")
-    print()
+    guess = input("Enter (A, B, C, D): ").upper()
+    guesses.append(guess)
+    if guess == answers[question_num]:
+        score+=1
+        print("Correct!")
+    else:
+        print("Incorrect!")
+        print(f"{answers[question_num]} is the correct answer!")
 
-# list with tuples
-groceries = [("apple", "orange", "banana", "coconut"),
-             ("celery", "carrot", "potatoes"),
-             ("chicken", "fish","turkey")]
+    question_num +=1
 
-for collection in groceries:
-    for food in collection:
-        print(food, end=" ")
-    print()
 
-# 2D tuples
-groceries = (("apple", "orange", "banana", "coconut"),
-             ("celery", "carrot", "potatoes"),
-             ("chicken", "fish","turkey"))
+print("--------------------")
+print("       Result       ")
+print("--------------------")
+print("Answers: ", end="")
+for answer in answers:
+    print(answer, end=" ")
+print()
+print("Guesses: ", end="")
+for guess in guesses:
+    print(guess, end=" ")
+print()
+score = int(score / len(questions) * 100 )
 
-for collection in groceries:
-    for food in collection:
-        print(food, end=" ")
-    print()
-# tuple made up with sets
-groceries = {("apple", "orange", "banana", "coconut"),
-             ("celery", "carrot", "potatoes"),
-             ("chicken", "fish","turkey")}
-
+print(f"Your score is: {score}%")
