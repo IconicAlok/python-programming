@@ -1,23 +1,82 @@
-# Nested Loop = A loop within another loop (outer, inner)
-#              outer loop:
-#                  inner loop:
+# collection = single "variable" used to store multiple values
+#   List = [] ordered and changeable. Duplicate OK
+#   Set = {} unordered and immutable, but Add/ Remove ok. N0 duplicates
+# Tuple = () ordered and unchangeable, Duplicate OK, Faster
+
+# fruits = ["apple","orange","banana","coconut"]
+
+# print(dir(fruits))
+# print(help(fruits))
+# print(len(fruits))
+# print("pineapple" in fruits)
+
+# fruits[0] = "pineapple"
+# fruits.append("pineapple")
+# fruits.remove("apple")
+# fruits.insert(0,"pineapple")
+# fruits.sort()
+# fruits.reverse()
+# fruits.clear()
+
+# print(fruits.index("apple"))
+# print(fruits.index("coconut"))
+# print(fruits.index("pineapple")) #error - cause not in the list
+
+# print(fruits.count("banana"))
+# print(fruits.count("pineapple"))
+
+
+# print(fruits)
+
+# for fruit in fruits:
+#     print(fruit,end=" ")
 
 
 
+"""
+print(fruits)
 
-                        # same line print statement
-                        # normally end = "\n"
-# for x in range(3):
-#     for y in range(1, 10):
-#         print(y, end="")
-#     print()
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+print(fruits[3])
+
+print(fruits[0:3])
+print(fruits[:3])
+print(fruits[::2])
+print(fruits[::-1])
+
+for fruit in fruits:
+    print(fruit,end=" ")
+"""
+# set = {} unordered and immutable, but Add/ Remove ok. N0 duplicates
+
+# fruits = {"apple", "orange", "banana", "coconut" }
+# print(dir(fruits))
+# print(help(fruits))
+# print(len(fruits))
+# print("pineapple" in fruits)
+# print(fruits[0]) # error 'set' object is not subscriptable
+
+# fruits.add("pineapple")
+# fruits.remove("apple")
+# fruits.pop()
+# fruits.clear()
+# print(fruits)
 
 
-rows = int(input("Enter the # of rows: "))
-columns = int(input("Enter the # of columns: "))
-symbol = input("Enter a symbol to to use: ")
 
-for x in range(rows):
-    for y in range(columns):
-        print(symbol, end="")
-    print()
+# tuples = () ordered and unchangeable, Duplicate OK, Faster
+
+fruits = ("apple","orange","banana","coconut","coconut")
+# print(dir(fruits))
+# print(help(fruits))
+# print(len(fruits))
+# print("pineapple" in fruits)
+
+# print(fruits.index("apple"))
+print(fruits.count("coconut"))
+
+# print(fruits)
+for fruit in fruits:
+    print(fruit,end=" ")
