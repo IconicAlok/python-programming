@@ -1,11 +1,23 @@
-import time
+# Nested Loop = A loop within another loop (outer, inner)
+#              outer loop:
+#                  inner loop:
 
-my_times = int(input("Enter the times in second: "))
-for x in range(my_times, 0, -1):
-    seconds = x % 60
-    minutes = int(x / 60) % 60
-    hours = int(x / 3600)
-    print(f"{hours:02}:{minutes:02}:{seconds:02}")
-    time.sleep(1)
 
-print("Times up!")
+
+
+                        # same line print statement
+                        # normally end = "\n"
+# for x in range(3):
+#     for y in range(1, 10):
+#         print(y, end="")
+#     print()
+
+
+rows = int(input("Enter the # of rows: "))
+columns = int(input("Enter the # of columns: "))
+symbol = input("Enter a symbol to to use: ")
+
+for x in range(rows):
+    for y in range(columns):
+        print(symbol, end="")
+    print()
