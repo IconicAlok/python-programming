@@ -1,26 +1,57 @@
-# Shopping cart program
+# 2D collections
 
-foods  = []
-prices = []
-total = 0
+# fruits = ["apple", "orange", "banana", "coconut"]
+# vegetables  = ["celery", "carrot", "potatoes"]
+# meats = ["chicken", "fish","turkey"]
+#
+# groceries = [fruits, vegetables, meats]
 
-while True:
-    food = input("Enter a food you like to buy (q to quit): ")
-    if food.lower() == "q":
-        break
-    else:
-        price = float(input(f"Enter the price of a {food}: $"))
-        foods.append(food)
-        prices.append(price)
+groceries = [["apple", "orange", "banana", "coconut"],
+             ["celery", "carrot", "potatoes"],
+             ["chicken", "fish","turkey"]]
 
-print("----- Your Cart -----")
 
-for food in foods:
-    print(food, end=" ")
+#
+# print(groceries)
+# print(groceries[0]) # fruits list
+# print(groceries[1]) # vegetables list
+# print(groceries[0][0]) # first item in fruits list
+# print(groceries[0][1]) # Second item in fruits list
+# print(groceries[0][2]) # Third item in fruits list
+# # print(groceries[0][3]) # Error index out of range
+# print(groceries[1][0]) # first item in vegetables list
+# print(groceries[1][1]) # second item in vegetables list
+# print(groceries[1][2]) # third item in vegetables list
+# print(groceries[2][0]) # 1st item in meats list
+# print(groceries[2][1]) # 2nd item in meats list
+# print(groceries[2][2]) # 3rd item in meats list
 
-print()
+for collection in groceries:
+    for food in collection:
+        print(food, end=" ")
+    print()
 
-for price in prices:
-    total+=price
+# list with tuples
+groceries = [("apple", "orange", "banana", "coconut"),
+             ("celery", "carrot", "potatoes"),
+             ("chicken", "fish","turkey")]
 
-print(f"Your total is : ${total}")
+for collection in groceries:
+    for food in collection:
+        print(food, end=" ")
+    print()
+
+# 2D tuples
+groceries = (("apple", "orange", "banana", "coconut"),
+             ("celery", "carrot", "potatoes"),
+             ("chicken", "fish","turkey"))
+
+for collection in groceries:
+    for food in collection:
+        print(food, end=" ")
+    print()
+# tuple made up with sets
+groceries = {("apple", "orange", "banana", "coconut"),
+             ("celery", "carrot", "potatoes"),
+             ("chicken", "fish","turkey")}
+
