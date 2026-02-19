@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="2D collections">
+    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Quiz game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keypad.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="17_Shopping_cart" />
+        <entry key="$PROJECT_DIR$" value="19_Quiz_game" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -325,7 +324,8 @@
       <workItem from="1771381430043" duration="3713000" />
       <workItem from="1771389541057" duration="3257000" />
       <workItem from="1771417970654" duration="2246000" />
-      <workItem from="1771423131493" duration="2500000" />
+      <workItem from="1771423131493" duration="2882000" />
+      <workItem from="1771508197186" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="Conditional expression">
       <option name="closed" value="true" />
@@ -447,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771420206167</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Quiz game">
+      <option name="closed" value="true" />
+      <created>1771425953481</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771425953481</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,12 +499,13 @@
     <MESSAGE value="Collection - list set tuple" />
     <MESSAGE value="Shopping cart program" />
     <MESSAGE value="2D collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="2D collections" />
+    <MESSAGE value="Quiz game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quiz game" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_work$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1771337210429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$exercise1.coverage" NAME="exercise1 Coverage Results" MODIFIED="1771308677946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_work$main.coverage" NAME="main Coverage Results" MODIFIED="1771425762901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_work$main.coverage" NAME="main Coverage Results" MODIFIED="1771510607511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$Main.coverage" NAME="Main Coverage Results" MODIFIED="1771419774679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$Keypad.coverage" NAME="Keypad Coverage Results" MODIFIED="1771420128882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_work$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1771337164282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

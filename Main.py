@@ -1,52 +1,43 @@
-# Python quiz game
+# Dictionaries =  a collections of {key : value} pairs
+#                 ordered and changeable. No duplicates
 
-questions = ("How many element in the periodic table?: ",
-             "Which animal lays the largest egg?: ",
-             "Which is the most abundant gas in the atmosphere?: ",
-             "How many bones are in the human body?: ",
-             "Which planet in the solar system is the hottest?: ")
+capitals = {"Bangladesh": "Dhaka",
+            "USA": "Washington D.C.",
+            "India": "New Delhi",
+            "China": "Beijing",
+            "Russia": "Moscow"}
+# print(dir(capitals))
+# print(help(capitals))
+# print(capitals.get("Bangladesh"))
+# print(capitals.get("USA"))
+# print(capitals.get("Japan"))
 
-options = (("A. 116", "B. 117", "C. 118", "D. 119"),
-           ("A. Whale", "B. Crocodile", "C. Elephant", "D. ostrich"),
-           ("A. Nitrogen", "B. Oxygen", "C. Carbon-Dioxide", "D. Hydrogen"),
-           ("A. 206", "B. 207", "C. 208", "D. 209"),
-           ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
+# if capitals.get("Japan"):
+#     print("Capital exist")
+# else:
+#     print("Capital doesn't exist")
 
-answers = ("C", "D", "A", "A", "B")
-guesses = []
-score = 0
-question_num = 0
+# if capitals.get("Russia"):
+#     print("Capital exists")
+# else:
+#     print("Capital doesn't exist")
 
+# capitals.update({"Germany": "Berlin"})
+# capitals.update({"USA": "Detroit"})
+# capitals.pop("China")
+# capitals.popitem()
+# capitals.clear()
 
-for question in questions:
-    print("--------------------")
-    print(question)
-    for option in options[question_num]:
-        print(option)
+# print(capitals)
 
-    guess = input("Enter (A, B, C, D): ").upper()
-    guesses.append(guess)
-    if guess == answers[question_num]:
-        score+=1
-        print("Correct!")
-    else:
-        print("Incorrect!")
-        print(f"{answers[question_num]} is the correct answer!")
+# keys = capitals.keys() #technically keys is an object which resemble a list
+# for key in capitals.keys():
+#     print(key)
 
-    question_num +=1
+# values = capitals.values()
+# for value in capitals.values():
+#     print(value)
 
-
-print("--------------------")
-print("       Result       ")
-print("--------------------")
-print("Answers: ", end="")
-for answer in answers:
-    print(answer, end=" ")
-print()
-print("Guesses: ", end="")
-for guess in guesses:
-    print(guess, end=" ")
-print()
-score = int(score / len(questions) * 100 )
-
-print(f"Your score is: {score}%")
+item = capitals.items() # items returns a dictionary object which resembles 2d list tuple [(),(),()]
+for key, value in capitals.items():
+    print(f"{key}: {value}")
