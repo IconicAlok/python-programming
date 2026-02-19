@@ -1,43 +1,33 @@
-# Dictionaries =  a collections of {key : value} pairs
-#                 ordered and changeable. No duplicates
+# concession stand program
+# dictionary = {key:value}
 
-capitals = {"Bangladesh": "Dhaka",
-            "USA": "Washington D.C.",
-            "India": "New Delhi",
-            "China": "Beijing",
-            "Russia": "Moscow"}
-# print(dir(capitals))
-# print(help(capitals))
-# print(capitals.get("Bangladesh"))
-# print(capitals.get("USA"))
-# print(capitals.get("Japan"))
+menu = {"pizza": 3.00,
+        "nachos": 4.50,
+        "popcorn": 6.00,
+        "fries": 2.50,
+        "chips": 1.00,
+        "pretzel": 3.50,
+        "soda": 3.00,
+        "lemonade": 4.25}
+cart = []
+total = 0
 
-# if capitals.get("Japan"):
-#     print("Capital exist")
-# else:
-#     print("Capital doesn't exist")
+print("---------- MENU ----------")
+for key , value in menu.items():
+    print(f"{key:10}:${value:.2f}")
+print("--------------------------")
 
-# if capitals.get("Russia"):
-#     print("Capital exists")
-# else:
-#     print("Capital doesn't exist")
+while True:
+    food = input("Select an item (q to quit): ").lower()
+    if food == "q":
+        break
+    elif menu.get(food) is not None:
+      cart.append(food)
 
-# capitals.update({"Germany": "Berlin"})
-# capitals.update({"USA": "Detroit"})
-# capitals.pop("China")
-# capitals.popitem()
-# capitals.clear()
+print("------- Your Order -------")
+for food in cart:
+    total += menu.get(food)
+    print(food, end=" ")
 
-# print(capitals)
-
-# keys = capitals.keys() #technically keys is an object which resemble a list
-# for key in capitals.keys():
-#     print(key)
-
-# values = capitals.values()
-# for value in capitals.values():
-#     print(value)
-
-item = capitals.items() # items returns a dictionary object which resembles 2d list tuple [(),(),()]
-for key, value in capitals.items():
-    print(f"{key}: {value}")
+print()
+print(f"Total is: ${total:.2f}")
