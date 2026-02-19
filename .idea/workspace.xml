@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Dictionaries">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-    </list>
+    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Concession stand program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +26,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="19_Quiz_game" />
+        <entry key="$PROJECT_DIR$" value="20_Dictionaries" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -326,7 +323,7 @@
       <workItem from="1771417970654" duration="2246000" />
       <workItem from="1771423131493" duration="2882000" />
       <workItem from="1771508197186" duration="2551000" />
-      <workItem from="1771510912778" duration="1322000" />
+      <workItem from="1771510912778" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Conditional expression">
       <option name="closed" value="true" />
@@ -464,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771510742747</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Concession stand program">
+      <option name="closed" value="true" />
+      <created>1771512435703</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771512435703</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +515,8 @@
     <MESSAGE value="2D collections" />
     <MESSAGE value="Quiz game" />
     <MESSAGE value="Dictionaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictionaries" />
+    <MESSAGE value="Concession stand program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concession stand program" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_work$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1771337210429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
