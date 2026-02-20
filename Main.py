@@ -1,30 +1,13 @@
-#Rock paper scissor
-import random
+# Functions = A block of reusable code
+#               place () after the function name invoke it.
 
-options = ("rock", "paper", "scissors")
-running = True
-while running:
-    player = None
-    computer = random.choice(options)
+def happy_birthday(name, age):
+    print(f"Happy birthday {name}!")
+    print(f"You are {age} years old!")
+    print("Happy birthday to you!")
+    print()
 
-    while player not in options:
-        player = input("Enter a choice(rock, paper, scissors): ")
 
-    print(f"Player: {player}")
-    print(f"Computer: {computer}")
-
-    if player == computer :
-        print("It's a tie")
-    elif player == "rock" and computer == "scissors":
-        print("You win!")
-    elif player == "paper" and computer == "rock":
-        print("You win!")
-    elif player == "scissors" and computer == "paper":
-        print("You win!")
-    else:
-        print("You lose!")
-
-    if not input("Play agin? (y/n): ").lower()=="y":
-        running = False
-
-print("Thanks for playing!")
+happy_birthday("alok", 20)
+happy_birthday("kuri", 30)
+happy_birthday("Tom", 40)
