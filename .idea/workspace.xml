@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Number guessing game">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-    </list>
+    <list default="true" id="16540665-2888-44e9-8884-983d4f293d43" name="Changes" comment="Rock paper scissors game" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +26,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="22_Number_guessing_game" />
+        <entry key="$PROJECT_DIR$" value="23_Rock_paper_scissors" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -333,7 +329,7 @@
       <workItem from="1771510912778" duration="1530000" />
       <workItem from="1771512554506" duration="288000" />
       <workItem from="1771555787026" duration="2619000" />
-      <workItem from="1771559659121" duration="1015000" />
+      <workItem from="1771559659121" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="Conditional expression">
       <option name="closed" value="true" />
@@ -503,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771558397386</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Rock paper scissors game">
+      <option name="closed" value="true" />
+      <created>1771560708791</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1771560708791</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Rock paper scissors game">
+      <option name="closed" value="true" />
+      <created>1771560894211</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771560894211</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +564,8 @@
     <MESSAGE value="Concession stand program" />
     <MESSAGE value="Random number" />
     <MESSAGE value="Number guessing game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number guessing game" />
+    <MESSAGE value="Rock paper scissors game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rock paper scissors game" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_work$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1771337210429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
