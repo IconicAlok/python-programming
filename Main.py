@@ -1,14 +1,23 @@
+#Rock paper scissor
 import random
 
-# print(help(random))
-high = 100
-low = 1
-options = ("rock","paper","scissors")
-cards = ["2","3","4","5","6","7","8","9","10","J","K","Q","A"]
-# number = random.randint(low,high)
-# number = random.random() # random method from random module will return floating point random number between 0 and 1.
-# option = random.choice(options)
-# print(option)
-random.shuffle(cards)
+options = ("rock", "paper", "scissors")
+player = None
+computer = random.choice(options)
 
-print(cards)
+while player not in options:
+    player = input("Enter a choice(rock, paper, scissors): ")
+
+print(f"Player: {player}")
+print(f"Computer: {computer}")
+
+if player == computer :
+    print("It's a tie")
+elif player == "rock" and computer == "scissors":
+    print("You win!")
+elif player == "paper" and computer == "rock":
+    print("You win!")
+elif player == "scissors" and computer == "paper":
+    print("You win!")
+else:
+    print("You lose!")
