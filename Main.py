@@ -1,33 +1,14 @@
-# concession stand program
-# dictionary = {key:value}
+import random
 
-menu = {"pizza": 3.00,
-        "nachos": 4.50,
-        "popcorn": 6.00,
-        "fries": 2.50,
-        "chips": 1.00,
-        "pretzel": 3.50,
-        "soda": 3.00,
-        "lemonade": 4.25}
-cart = []
-total = 0
+# print(help(random))
+high = 100
+low = 1
+options = ("rock","paper","scissors")
+cards = ["2","3","4","5","6","7","8","9","10","J","K","Q","A"]
+# number = random.randint(low,high)
+# number = random.random() # random method from random module will return floating point random number between 0 and 1.
+# option = random.choice(options)
+# print(option)
+random.shuffle(cards)
 
-print("---------- MENU ----------")
-for key , value in menu.items():
-    print(f"{key:10}:${value:.2f}")
-print("--------------------------")
-
-while True:
-    food = input("Select an item (q to quit): ").lower()
-    if food == "q":
-        break
-    elif menu.get(food) is not None:
-      cart.append(food)
-
-print("------- Your Order -------")
-for food in cart:
-    total += menu.get(food)
-    print(food, end=" ")
-
-print()
-print(f"Total is: ${total:.2f}")
+print(cards)
