@@ -1,12 +1,13 @@
-# default arguments = A default value for certain parameter
-#                     default is used when that argument is omitted
-#                     make your function more flexible, reduce # of argument
-#                     1. Positional 2. DEFAULT 3. Arbitrary
+# keyword argument = an argument preceded by an identifier
+#                    helps with readability
+#                    order of argument doesn't matter
+#                    1. Positional 2. default 3. KEYWORD 4. Arbitrary
 
-def net_price(list_price, discount = 0.0, tax = 0.05):
-    return list_price * (1 - discount) * (1 + tax)
+def hello(greetings, title, first, last):
+    print(f"{greetings} {title}{first} {last}")
 
-# print(net_price(500,0,0.05))
-# print(net_price(500))
-# print(net_price(500, 0.1))
-print(net_price(500, 0.1, 0.0))
+hello("Hello",title="Mr. ",last="Squarepants" ,first="Spongebob")
+
+hello("Hello",title="Mr.",last="John",first="James")
+
+# positional arguments first then KEYWORD arguments otherwise error
