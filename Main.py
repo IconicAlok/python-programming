@@ -1,15 +1,30 @@
-# match case statement (switch) = An alternative to using many elif statements.
-#                                   Execute some code if a value matches a 'case'.
-#                                   Benefits: cleaner and syntax more readable
+# module = a file containing code you want to include in your program
+#          use 'import' to include a module (built-in or your own)
+#          useful to break up a large program reusable separate files
+
+# print(help("modules"))
+# print(help("math"))
+
+import math
+# import math as m
+from math import pi
+from math import e
+# a, b, c, d, e = 1, 2, 3, 4, 5
+
+# print(pi)
+# print(math.e ** a)
+# print(math.e ** b)
+# print(math.e ** c)
+# print(math.e ** d)
+# print(math.e ** e)
 
 
-def is_weekend(day):
-    match day:
-        case "Sunday"| "Saturday":
-            return True
-        case "Monday"| "Tuesday" | "Wednesday" | "Thursday" | "Friday":
-            return False
-        case _:
-            return False
+import example
+from example import circumference
 
-print(is_weekend("Saturday"))
+# result = example.pi
+# result = example.square(3)
+# result = example.cube(3)
+# result = example.circumference(3)
+result = example.area(3)
+print(result)
