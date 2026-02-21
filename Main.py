@@ -1,43 +1,48 @@
-# Iterables = An object/collection that can be return its element one at a time,
-#             Allowing it to be iterated over in a loop
+# membership operator = used to test weather a value or variable is found in a sequence
+#                       (string, list, tuples, set or dictionary)
+#                       1. in
+#                       2.not in
+
+word = "APPLE"
+# letter = input("Guess a letter form the secret word: ")
+
+# if letter in word:
+#     print(f"There is a {letter}")
+# else:
+#     print(f"There is no a {letter}")
 
 
-# numbers = [1, 2, 3, 4, 5]
-numbers = (1,2,3,4,5)
-fruits = {"Apple", "Orange", "Banana", "Coconut"}
 
-# the name of the current element of out iterable should be
-# descriptive for what iterating over
-# for number in reversed(numbers):
-#     print(number, end=" - ")
-
-for num in numbers:
-    print(num)
+# if letter not in word:
+#     print(f"{letter} was not found")
+# else:
+#     print(f"There is a {letter}")
 
 
-for fruit in fruits :
-    print(fruit)
+students = {"Spongebob", "Patrick", "Sandy"}
+#
+# student = input("Enter a name of an student: ")
+# if student in students:
+#     print(f"{student} is a student ")
+# else:
+#     print(f"{student} was not found ")
 
 
-# for fruit in reversed(fruits):
-#     print(fruit)
-#     TypeError: 'set' object is not reversible
 
-name = "Alok Kuri"
+grades = {"Sandy": "A",
+          "Squidward":"B",
+          "Spongebob": "C",
+          "Patrick":"D"}
 
-for character in name:
-    print(character, end=" ")
+# student = input("Enter a name of a student: ")
+#
+# if student in grades:
+#     print(f"{student}'s grade is {grades[student]}. ")
+# else:
+#     print(f"{student} was not found")
 
-print()
-
-
-my_dictionary = {"A":1, "B":2, "C":3}
-
-for key in my_dictionary:
-    print(key)
-
-for value in my_dictionary.values():
-    print(value)
-
-for key, value in my_dictionary.items():
-    print(f"{key} : {value}")
+email = "alok@gmail.com"
+if "@" in email and "." in email:
+    print("Valid email")
+else:
+    print("Not valid email")
