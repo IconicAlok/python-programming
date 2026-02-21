@@ -1,48 +1,29 @@
-# membership operator = used to test weather a value or variable is found in a sequence
-#                       (string, list, tuples, set or dictionary)
-#                       1. in
-#                       2.not in
+# list comprehension = A concise way to create lists in python
+#                      Compact and easier to read and traditional loops
+#                      [expression for value in iterable if condition]
 
-word = "APPLE"
-# letter = input("Guess a letter form the secret word: ")
-
-# if letter in word:
-#     print(f"There is a {letter}")
-# else:
-#     print(f"There is no a {letter}")
-
-
-
-# if letter not in word:
-#     print(f"{letter} was not found")
-# else:
-#     print(f"There is a {letter}")
-
-
-students = {"Spongebob", "Patrick", "Sandy"}
+# doubles = []
+# for x in range(1,11):
+#     doubles.append(x * 2)
 #
-# student = input("Enter a name of an student: ")
-# if student in students:
-#     print(f"{student} is a student ")
-# else:
-#     print(f"{student} was not found ")
+# print(doubles)
+
+doubles = [x * 2 for x in range(1,11)]
+triple = [y * 3 for y in range(1,11)]
+square = [z * z for z in range(1,11)]
+
+fruits = [fruit.upper() for fruit in ["apple", "orange", "banana", "coconut"]]
+fruits_char = [fruit[0] for fruit in ["apple", "orange", "banana", "coconut"]]
+
+numbers = [1, -2, 3, -4, 5, -6, -7]
+positive_num = [num for num in numbers if num>=0]
+negative_num = [num for num in numbers if num<0]
+even_num = [num for num in numbers if num % 2==0]
+odd_num = [num for num in numbers if num % 2 == 1]
+# print(odd_num)
 
 
+grades = [85, 42, 79, 90, 56, 61, 30]
+passing_grade = [grade for grade in grades if grade >= 60]
 
-grades = {"Sandy": "A",
-          "Squidward":"B",
-          "Spongebob": "C",
-          "Patrick":"D"}
-
-# student = input("Enter a name of a student: ")
-#
-# if student in grades:
-#     print(f"{student}'s grade is {grades[student]}. ")
-# else:
-#     print(f"{student} was not found")
-
-email = "alok@gmail.com"
-if "@" in email and "." in email:
-    print("Valid email")
-else:
-    print("Not valid email")
+print(passing_grade)
