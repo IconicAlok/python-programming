@@ -20,7 +20,6 @@ from math import e
 
 
 import example
-from example import circumference
 
 # result = example.pi
 # result = example.square(3)
