@@ -1,29 +1,22 @@
-# module = a file containing code you want to include in your program
-#          use 'import' to include a module (built-in or your own)
-#          useful to break up a large program reusable separate files
+# variable scope = where a variable is visible and accessable
+# scopr resulation = (LEGB) Local -> Enclosed -> Global -> Build in
 
-# print(help("modules"))
-# print(help("math"))
 
-import math
-# import math as m
-from math import pi
+def func1():
+    # a = 1
+    print(x)
+
+def func2():
+    # b = 2
+    print(x)
+    # print(a)          # name error variable a is not define
+
+x = 3
+func1()
+func2()
+
 from math import e
-# a, b, c, d, e = 1, 2, 3, 4, 5
-
-# print(pi)
-# print(math.e ** a)
-# print(math.e ** b)
-# print(math.e ** c)
-# print(math.e ** d)
-# print(math.e ** e)
-
-
-import example
-
-# result = example.pi
-# result = example.square(3)
-# result = example.cube(3)
-# result = example.circumference(3)
-result = example.area(3)
-print(result)
+def func3():
+    print(e)
+e = 3
+func3()
